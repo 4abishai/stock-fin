@@ -145,7 +145,7 @@ const CandlestickChart = () => {
             checked={showSMA}
             onChange={(e) => setShowSMA(e.target.checked)}
           />
-          Show 10-day Moving Average
+          Moving Average (10 day)
         </label>
       </div>
 
