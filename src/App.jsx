@@ -1,12 +1,10 @@
 import './App.css'
-import CandleMeta from './components/CandleMeta'
-import CandleMsft from './components/CandleMsft'
+import CandlestickChart from './components/CandlestickChart'
 
 function App() {
   return (
     <div className="container">
-      <CandleMeta />
-      {/* <CandleMsft /> */}
+      <CandlestickChart />
     </div>
   )
 }
